@@ -1,0 +1,2722 @@
+[
+  {
+    "loan_officer": [
+      {
+        "id": "6f2b0011-a527-4082-ade3-41573e5a4657",
+        "first_name": "Robert",
+        "last_name": "Johnson",
+        "email": "robert.johnson@example.com",
+        "phone_number": "1234567890",
+        "created_at": "2023-09-27T04:47:29.453Z",
+        "updated_at": "2023-09-27T18:38:55.003Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "59432038-2f46-4ac6-a631-5d25b8de8ce1",
+        "first_name": "Jennifer",
+        "last_name": "Anderson",
+        "email": "jennifer.anderson@example.com",
+        "phone_number": "2345678901",
+        "created_at": "2023-09-27T15:09:32.896Z",
+        "updated_at": "2023-09-28T03:05:06.108Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b4c525fc-31fd-4a8a-b24e-ca275c483f19",
+        "first_name": "William",
+        "last_name": "Smith",
+        "email": "william.smith@example.com",
+        "phone_number": "3456789012",
+        "created_at": "2023-09-28T02:45:01.449Z",
+        "updated_at": "2023-09-27T10:31:11.299Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1e9241f3-1e0c-496c-b12e-71635d779c62",
+        "first_name": "Emily",
+        "last_name": "Brown",
+        "email": "emily.brown@example.com",
+        "phone_number": "4567890123",
+        "created_at": "2023-09-27T12:10:29.320Z",
+        "updated_at": "2023-09-27T20:45:49.387Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2eb840e2-4b47-486b-aa11-162fd9a5dad7",
+        "first_name": "Daniel",
+        "last_name": "Davis",
+        "email": "daniel.davis@example.com",
+        "phone_number": "5678901234",
+        "created_at": "2023-09-27T09:31:11.510Z",
+        "updated_at": "2023-09-27T07:24:23.055Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "loan": [
+      {
+        "id": "650e6206-f58d-4004-ac4a-b26caa262b8b",
+        "loan_amount": 19255,
+        "interest_rate": 73228,
+        "loan_term": 35092,
+        "monthly_emi": 3041,
+        "disbursal_date": "2023-09-28T02:35:42.441Z",
+        "created_at": "2023-09-27T08:47:35.717Z",
+        "updated_at": "2023-09-27T22:38:20.265Z",
+        "lender_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "517e128a-c431-42a1-964c-ede272c98e04",
+        "loan_amount": 85714,
+        "interest_rate": 41523,
+        "loan_term": 11538,
+        "monthly_emi": 80001,
+        "disbursal_date": "2023-09-27T22:39:23.667Z",
+        "created_at": "2023-09-27T19:42:39.298Z",
+        "updated_at": "2023-09-27T22:07:45.452Z",
+        "lender_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6ee41c99-1a7b-4325-abbc-f7568c4be007",
+        "loan_amount": 84702,
+        "interest_rate": 49028,
+        "loan_term": 85263,
+        "monthly_emi": 72546,
+        "disbursal_date": "2023-09-27T13:34:04.911Z",
+        "created_at": "2023-09-27T07:36:51.603Z",
+        "updated_at": "2023-09-27T16:12:43.835Z",
+        "lender_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8d22cc64-a98b-4a30-aa39-beffd23f0ab4",
+        "loan_amount": 34911,
+        "interest_rate": 77570,
+        "loan_term": 35085,
+        "monthly_emi": 31436,
+        "disbursal_date": "2023-09-28T01:24:48.520Z",
+        "created_at": "2023-09-27T13:13:13.939Z",
+        "updated_at": "2023-09-28T02:23:53.160Z",
+        "lender_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "611ad052-bf38-4cc3-a655-654a6861281c",
+        "loan_amount": 93921,
+        "interest_rate": 43439,
+        "loan_term": 10337,
+        "monthly_emi": 21123,
+        "disbursal_date": "2023-09-28T00:54:51.357Z",
+        "created_at": "2023-09-28T04:39:44.183Z",
+        "updated_at": "2023-09-27T21:02:34.794Z",
+        "lender_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "vehicle": [
+      {
+        "id": "f0c8963c-55fa-432b-bfd9-30d75973e698",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 20710,
+        "color": "Red",
+        "price": 86953,
+        "created_at": "2023-09-27T23:36:49.497Z",
+        "updated_at": "2023-09-27T08:24:42.844Z",
+        "loan_id": "6ee41c99-1a7b-4325-abbc-f7568c4be007"
+      },
+      {
+        "id": "4bac7fb2-25db-4b71-97a6-4d8bc7cdcefe",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 93769,
+        "color": "Blue",
+        "price": 95298,
+        "created_at": "2023-09-27T15:13:43.731Z",
+        "updated_at": "2023-09-27T16:07:11.200Z",
+        "loan_id": "517e128a-c431-42a1-964c-ede272c98e04"
+      },
+      {
+        "id": "fb7e54cd-6ebb-4ea5-8240-a3874b1319c6",
+        "make": "Ford",
+        "model": "F-150",
+        "year": 72307,
+        "color": "Black",
+        "price": 54549,
+        "created_at": "2023-09-27T09:51:53.623Z",
+        "updated_at": "2023-09-27T07:10:03.838Z",
+        "loan_id": "6ee41c99-1a7b-4325-abbc-f7568c4be007"
+      },
+      {
+        "id": "8453b0fc-9fe8-473b-bb0f-2c2a3e884dab",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 92435,
+        "color": "White",
+        "price": 66896,
+        "created_at": "2023-09-27T04:45:42.790Z",
+        "updated_at": "2023-09-27T09:35:52.194Z",
+        "loan_id": "6ee41c99-1a7b-4325-abbc-f7568c4be007"
+      },
+      {
+        "id": "2de837db-4a50-4357-ab66-66e62d6768a3",
+        "make": "BMW",
+        "model": "X5",
+        "year": 56960,
+        "color": "Silver",
+        "price": 5299,
+        "created_at": "2023-09-27T06:15:01.772Z",
+        "updated_at": "2023-09-27T06:27:44.925Z",
+        "loan_id": "8d22cc64-a98b-4a30-aa39-beffd23f0ab4"
+      }
+    ],
+    "customer_service_representative": [
+      {
+        "id": "2742f56c-1c9c-4861-a52f-d8113cffa660",
+        "first_name": "Jessica",
+        "last_name": "Wilson",
+        "email": "jessica.wilson@example.com",
+        "phone_number": "6789012345",
+        "created_at": "2023-09-27T21:16:17.186Z",
+        "updated_at": "2023-09-27T08:56:17.837Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8d400d4c-67b6-4cf8-aa1c-1ef373827eae",
+        "first_name": "Michael",
+        "last_name": "Johnson",
+        "email": "michael.johnson@example.com",
+        "phone_number": "7890123456",
+        "created_at": "2023-09-27T10:11:26.305Z",
+        "updated_at": "2023-09-27T13:32:21.085Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8dae59b2-608e-4d1b-9e9a-45d8ceebbd3c",
+        "first_name": "Emily",
+        "last_name": "Brown",
+        "email": "emily.brown@example.com",
+        "phone_number": "8901234567",
+        "created_at": "2023-09-27T22:05:05.636Z",
+        "updated_at": "2023-09-27T12:55:46.542Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cec03cca-00a7-4459-ad02-398ae1a545ba",
+        "first_name": "David",
+        "last_name": "Davis",
+        "email": "david.davis@example.com",
+        "phone_number": "9012345678",
+        "created_at": "2023-09-27T22:29:50.803Z",
+        "updated_at": "2023-09-28T02:07:51.337Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0ce6b7ea-73f0-4bd5-a6cd-1a630853c885",
+        "first_name": "Sophia",
+        "last_name": "Anderson",
+        "email": "sophia.anderson@example.com",
+        "phone_number": "0123456789",
+        "created_at": "2023-09-27T22:58:30.576Z",
+        "updated_at": "2023-09-28T02:10:23.689Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "8ffb6391-21be-4e11-8f7c-2a6fb124259b",
+        "email": "Maynard_Bashirian87@roq.tech",
+        "firstName": "Conner",
+        "lastName": "Goldner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/728.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7d62f3a1-ca24-4287-872e-e15c8e0a8acd",
+        "email": "Maggie10@roq.tech",
+        "firstName": "Kelsi",
+        "lastName": "Reichel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/15435422",
+        "tenantId": null
+      },
+      {
+        "reference": "21fa2f52-64d3-4253-9731-d11d3cb17384",
+        "email": "Diego_Muller@roq.tech",
+        "firstName": "Kelly",
+        "lastName": "Gutkowski",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/129.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9b208dc8-e9fd-4a87-b563-f88a129d5efa",
+        "email": "Bobbie_Sipes@roq.tech",
+        "firstName": "Wava",
+        "lastName": "Crist-Sporer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/98584045",
+        "tenantId": null
+      },
+      {
+        "reference": "150c6929-748a-4fe2-84e9-b7fcbfff7a09",
+        "email": "Hannah.Ledner@roq.tech",
+        "firstName": "Assunta",
+        "lastName": "Kirlin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/31657817",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "loan_officer": [
+      {
+        "id": "49614398-3749-4c5d-92af-8469140f60dc",
+        "first_name": "Robert",
+        "last_name": "Johnson",
+        "email": "robert.johnson@example.com",
+        "phone_number": "1234567890",
+        "created_at": "2023-09-27T21:18:41.460Z",
+        "updated_at": "2023-09-27T11:40:21.692Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ae40a23c-5d36-4899-b2b7-ab8542afce1c",
+        "first_name": "Emily",
+        "last_name": "Anderson",
+        "email": "emily.anderson@example.com",
+        "phone_number": "2345678901",
+        "created_at": "2023-09-27T11:21:53.538Z",
+        "updated_at": "2023-09-27T10:23:13.975Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f6c23e36-cbf8-43a8-ab2d-7cb45f5ed951",
+        "first_name": "Daniel",
+        "last_name": "Thomas",
+        "email": "daniel.thomas@example.com",
+        "phone_number": "3456789012",
+        "created_at": "2023-09-27T11:45:48.152Z",
+        "updated_at": "2023-09-27T20:54:30.552Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aab3a62b-4449-427d-b322-c350da16f752",
+        "first_name": "Olivia",
+        "last_name": "Walker",
+        "email": "olivia.walker@example.com",
+        "phone_number": "4567890123",
+        "created_at": "2023-09-27T06:35:40.245Z",
+        "updated_at": "2023-09-27T21:19:41.307Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2b594a49-b3b3-4daf-a5b4-4dbbba7aa799",
+        "first_name": "Matthew",
+        "last_name": "Harris",
+        "email": "matthew.harris@example.com",
+        "phone_number": "5678901234",
+        "created_at": "2023-09-28T02:21:38.392Z",
+        "updated_at": "2023-09-27T13:37:16.086Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "loan": [
+      {
+        "id": "38a3753d-85a3-490a-b146-2c9a6e977e90",
+        "loan_amount": 69776,
+        "interest_rate": 88559,
+        "loan_term": 46027,
+        "monthly_emi": 76399,
+        "disbursal_date": "2023-09-27T17:13:07.769Z",
+        "created_at": "2023-09-27T20:46:21.112Z",
+        "updated_at": "2023-09-27T23:25:53.020Z",
+        "lender_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9585b78e-420d-4993-8c10-40376bcbe31a",
+        "loan_amount": 2800,
+        "interest_rate": 73765,
+        "loan_term": 88002,
+        "monthly_emi": 29960,
+        "disbursal_date": "2023-09-27T20:45:01.766Z",
+        "created_at": "2023-09-27T17:16:58.661Z",
+        "updated_at": "2023-09-27T18:14:19.292Z",
+        "lender_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bb0d3591-663e-482f-a69f-39c61ac0a404",
+        "loan_amount": 59492,
+        "interest_rate": 91776,
+        "loan_term": 43825,
+        "monthly_emi": 30167,
+        "disbursal_date": "2023-09-27T17:54:06.397Z",
+        "created_at": "2023-09-27T12:51:34.704Z",
+        "updated_at": "2023-09-27T14:45:04.154Z",
+        "lender_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e1ee5dec-6183-47df-a56c-1620a02a1b3b",
+        "loan_amount": 76379,
+        "interest_rate": 86156,
+        "loan_term": 81238,
+        "monthly_emi": 78406,
+        "disbursal_date": "2023-09-28T02:09:47.542Z",
+        "created_at": "2023-09-27T19:19:10.356Z",
+        "updated_at": "2023-09-27T09:51:01.279Z",
+        "lender_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "234ae325-628c-4714-b6be-0d204b5748a7",
+        "loan_amount": 38878,
+        "interest_rate": 13319,
+        "loan_term": 31313,
+        "monthly_emi": 43441,
+        "disbursal_date": "2023-09-27T12:11:31.927Z",
+        "created_at": "2023-09-27T12:46:26.759Z",
+        "updated_at": "2023-09-28T02:50:57.646Z",
+        "lender_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "vehicle": [
+      {
+        "id": "6379c047-407e-4e03-b923-0d5b5fb627ec",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 75130,
+        "color": "Red",
+        "price": 40975,
+        "created_at": "2023-09-27T16:11:25.409Z",
+        "updated_at": "2023-09-28T00:12:32.803Z",
+        "loan_id": "38a3753d-85a3-490a-b146-2c9a6e977e90"
+      },
+      {
+        "id": "d8da3a73-c7ff-45ac-ba06-b93e5e1e8184",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 76103,
+        "color": "Blue",
+        "price": 11689,
+        "created_at": "2023-09-27T17:59:44.778Z",
+        "updated_at": "2023-09-27T21:31:08.182Z",
+        "loan_id": "38a3753d-85a3-490a-b146-2c9a6e977e90"
+      },
+      {
+        "id": "565bdc76-959b-4228-be0a-8ab105c09d37",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 34710,
+        "color": "Black",
+        "price": 93148,
+        "created_at": "2023-09-27T18:57:55.907Z",
+        "updated_at": "2023-09-27T09:36:23.116Z",
+        "loan_id": "234ae325-628c-4714-b6be-0d204b5748a7"
+      },
+      {
+        "id": "33b9433b-468d-4c8e-8530-e99fb956f9cf",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 44004,
+        "color": "White",
+        "price": 4361,
+        "created_at": "2023-09-27T20:39:11.530Z",
+        "updated_at": "2023-09-27T13:56:46.918Z",
+        "loan_id": "234ae325-628c-4714-b6be-0d204b5748a7"
+      },
+      {
+        "id": "1c984dff-ac56-4703-aed1-fe50e16132b6",
+        "make": "Nissan",
+        "model": "Altima",
+        "year": 22600,
+        "color": "Silver",
+        "price": 11462,
+        "created_at": "2023-09-27T16:47:39.597Z",
+        "updated_at": "2023-09-28T04:24:36.458Z",
+        "loan_id": "234ae325-628c-4714-b6be-0d204b5748a7"
+      }
+    ],
+    "customer_service_representative": [
+      {
+        "id": "b3be095d-5f53-4748-86fb-b79793904261",
+        "first_name": "Jennifer",
+        "last_name": "Smith",
+        "email": "jennifer.smith@example.com",
+        "phone_number": "6789012345",
+        "created_at": "2023-09-28T04:08:42.764Z",
+        "updated_at": "2023-09-27T08:47:20.721Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ac70939d-6aba-4db5-88b5-a2fc62124853",
+        "first_name": "Christopher",
+        "last_name": "Brown",
+        "email": "christopher.brown@example.com",
+        "phone_number": "7890123456",
+        "created_at": "2023-09-28T03:29:17.661Z",
+        "updated_at": "2023-09-28T01:03:03.853Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aed6e212-f55d-4420-b7a4-9ac45f286453",
+        "first_name": "Sophia",
+        "last_name": "Johnson",
+        "email": "sophia.johnson@example.com",
+        "phone_number": "8901234567",
+        "created_at": "2023-09-27T20:36:45.220Z",
+        "updated_at": "2023-09-28T01:57:59.793Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dbe915e8-1ef1-48f3-87cd-4881cfc5c567",
+        "first_name": "Daniel",
+        "last_name": "Davis",
+        "email": "daniel.davis@example.com",
+        "phone_number": "9012345678",
+        "created_at": "2023-09-28T01:01:43.225Z",
+        "updated_at": "2023-09-27T13:35:40.791Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3bfd27ee-331d-4e80-8472-6f2361d5ae78",
+        "first_name": "Emma",
+        "last_name": "Miller",
+        "email": "emma.miller@example.com",
+        "phone_number": "0123456789",
+        "created_at": "2023-09-27T09:18:50.860Z",
+        "updated_at": "2023-09-27T04:44:38.962Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "bdf060a6-d81d-4813-9434-76783cbc9b7c",
+        "email": "Jarvis_Schaefer97@roq.tech",
+        "firstName": "Adam",
+        "lastName": "Ritchie",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/807.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "712cbefc-15db-4759-be20-671df35aeddb",
+        "email": "Lucy_Gulgowski@roq.tech",
+        "firstName": "Tamia",
+        "lastName": "Sauer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/62306221",
+        "tenantId": null
+      },
+      {
+        "reference": "5cd6438d-b6e5-498d-9200-cf5afe815f7f",
+        "email": "Thurman.Murazik@roq.tech",
+        "firstName": "Trevion",
+        "lastName": "O'Connell",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/926.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "16828dfd-3546-4779-a109-407752785add",
+        "email": "Richmond83@roq.tech",
+        "firstName": "Brando",
+        "lastName": "Bode",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/466.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "19299284-e31c-4961-8083-919799e45ef9",
+        "email": "Mara_Kunde@roq.tech",
+        "firstName": "Maiya",
+        "lastName": "Rice-Bogan",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8833098",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "loan_officer": [
+      {
+        "id": "0a02a8d4-3539-4c36-95ca-542d188ed904",
+        "first_name": "Emily",
+        "last_name": "Johnson",
+        "email": "emily.johnson@example.com",
+        "phone_number": "1234567890",
+        "created_at": "2023-09-27T11:40:15.278Z",
+        "updated_at": "2023-09-27T16:40:24.943Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3ae396b5-f5d8-452f-9aa7-7c49b689d98b",
+        "first_name": "Daniel",
+        "last_name": "Anderson",
+        "email": "daniel.anderson@example.com",
+        "phone_number": "2345678901",
+        "created_at": "2023-09-27T06:13:16.448Z",
+        "updated_at": "2023-09-27T11:37:01.266Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4e9ac686-405f-4f48-8c48-d89278f5aac2",
+        "first_name": "Olivia",
+        "last_name": "Williams",
+        "email": "olivia.williams@example.com",
+        "phone_number": "3456789012",
+        "created_at": "2023-09-27T18:31:49.825Z",
+        "updated_at": "2023-09-27T23:17:50.664Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "46e906b4-104c-4bde-863e-3b1e6c5d81e4",
+        "first_name": "Jacob",
+        "last_name": "Brown",
+        "email": "jacob.brown@example.com",
+        "phone_number": "4567890123",
+        "created_at": "2023-09-27T10:54:23.945Z",
+        "updated_at": "2023-09-27T12:47:33.036Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ff9c7aae-5d50-498d-816c-5e3f0b281691",
+        "first_name": "Sophia",
+        "last_name": "Jones",
+        "email": "sophia.jones@example.com",
+        "phone_number": "5678901234",
+        "created_at": "2023-09-27T15:31:54.787Z",
+        "updated_at": "2023-09-27T18:24:59.313Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "loan": [
+      {
+        "id": "77d35d20-575d-4bad-830f-f9d19b486fe2",
+        "loan_amount": 60205,
+        "interest_rate": 15781,
+        "loan_term": 46317,
+        "monthly_emi": 2343,
+        "disbursal_date": "2023-09-27T16:25:50.333Z",
+        "created_at": "2023-09-28T04:33:18.445Z",
+        "updated_at": "2023-09-27T18:00:05.734Z",
+        "lender_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "42c74e54-1a89-445b-9c7a-168fb65befd2",
+        "loan_amount": 14738,
+        "interest_rate": 66618,
+        "loan_term": 92072,
+        "monthly_emi": 44831,
+        "disbursal_date": "2023-09-28T04:12:23.752Z",
+        "created_at": "2023-09-28T01:56:09.445Z",
+        "updated_at": "2023-09-27T21:45:56.243Z",
+        "lender_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "05745e8a-dce3-4dfc-9bca-123e62ae11fd",
+        "loan_amount": 63639,
+        "interest_rate": 15652,
+        "loan_term": 53731,
+        "monthly_emi": 95557,
+        "disbursal_date": "2023-09-27T13:42:41.497Z",
+        "created_at": "2023-09-27T11:33:12.897Z",
+        "updated_at": "2023-09-27T05:20:01.661Z",
+        "lender_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cf535475-7541-4c2c-ad50-81744c2ef315",
+        "loan_amount": 83026,
+        "interest_rate": 6508,
+        "loan_term": 68188,
+        "monthly_emi": 50345,
+        "disbursal_date": "2023-09-27T16:16:12.734Z",
+        "created_at": "2023-09-27T12:03:27.403Z",
+        "updated_at": "2023-09-27T07:49:49.494Z",
+        "lender_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ccbf74db-8c2c-4e35-bb1d-35b6c8d9ef65",
+        "loan_amount": 96292,
+        "interest_rate": 32721,
+        "loan_term": 982,
+        "monthly_emi": 33532,
+        "disbursal_date": "2023-09-27T17:11:55.224Z",
+        "created_at": "2023-09-27T18:16:37.483Z",
+        "updated_at": "2023-09-27T14:11:38.464Z",
+        "lender_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "vehicle": [
+      {
+        "id": "c49cb41f-c8a1-4ce9-8c40-0a7b554e8e28",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 387,
+        "color": "Red",
+        "price": 7603,
+        "created_at": "2023-09-27T14:56:01.579Z",
+        "updated_at": "2023-09-27T06:22:54.356Z",
+        "loan_id": "cf535475-7541-4c2c-ad50-81744c2ef315"
+      },
+      {
+        "id": "675400c1-93d1-47d9-add5-c9037639d71d",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 46057,
+        "color": "Blue",
+        "price": 23544,
+        "created_at": "2023-09-27T06:28:15.968Z",
+        "updated_at": "2023-09-27T19:43:50.048Z",
+        "loan_id": "05745e8a-dce3-4dfc-9bca-123e62ae11fd"
+      },
+      {
+        "id": "4bcd5396-66f1-45a6-8abc-f17cb5b96472",
+        "make": "Ford",
+        "model": "F-150",
+        "year": 5690,
+        "color": "Black",
+        "price": 92461,
+        "created_at": "2023-09-27T20:31:35.175Z",
+        "updated_at": "2023-09-28T02:39:11.683Z",
+        "loan_id": "77d35d20-575d-4bad-830f-f9d19b486fe2"
+      },
+      {
+        "id": "91be677f-86fd-4b7b-8b6a-2a23a10f1a97",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 77115,
+        "color": "White",
+        "price": 51248,
+        "created_at": "2023-09-27T07:29:57.336Z",
+        "updated_at": "2023-09-27T18:15:25.150Z",
+        "loan_id": "ccbf74db-8c2c-4e35-bb1d-35b6c8d9ef65"
+      },
+      {
+        "id": "695276b2-3bd7-4f62-826c-3059044962bc",
+        "make": "Nissan",
+        "model": "Altima",
+        "year": 18746,
+        "color": "Silver",
+        "price": 55641,
+        "created_at": "2023-09-27T19:11:08.729Z",
+        "updated_at": "2023-09-27T20:28:11.204Z",
+        "loan_id": "ccbf74db-8c2c-4e35-bb1d-35b6c8d9ef65"
+      }
+    ],
+    "customer_service_representative": [
+      {
+        "id": "03572717-8264-4dda-87e6-b0c50653b11e",
+        "first_name": "Jessica",
+        "last_name": "Smith",
+        "email": "jessica.smith@example.com",
+        "phone_number": "6789012345",
+        "created_at": "2023-09-27T06:44:16.781Z",
+        "updated_at": "2023-09-28T00:38:52.423Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "34eb6730-d875-42e7-b156-1c33c94edda5",
+        "first_name": "Matthew",
+        "last_name": "Johnson",
+        "email": "matthew.johnson@example.com",
+        "phone_number": "7890123456",
+        "created_at": "2023-09-27T09:25:01.795Z",
+        "updated_at": "2023-09-28T03:07:55.210Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c4d28820-9146-41f6-9ed7-2c52c8d151cc",
+        "first_name": "Ava",
+        "last_name": "Brown",
+        "email": "ava.brown@example.com",
+        "phone_number": "8901234567",
+        "created_at": "2023-09-27T09:09:22.004Z",
+        "updated_at": "2023-09-27T23:13:40.425Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cb3db7d5-86c4-4163-b36e-3788ab638cf9",
+        "first_name": "Ethan",
+        "last_name": "Davis",
+        "email": "ethan.davis@example.com",
+        "phone_number": "9012345678",
+        "created_at": "2023-09-27T10:22:43.340Z",
+        "updated_at": "2023-09-27T08:06:37.436Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d398163d-3752-4d8d-ba2e-3a9ca0c5bcac",
+        "first_name": "Olivia",
+        "last_name": "Wilson",
+        "email": "olivia.wilson@example.com",
+        "phone_number": "0123456789",
+        "created_at": "2023-09-27T09:32:03.048Z",
+        "updated_at": "2023-09-28T00:17:47.952Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "fd5b0803-c875-4926-951d-14c4309af2a4",
+        "email": "Miles84@roq.tech",
+        "firstName": "Sarah",
+        "lastName": "O'Conner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/593.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8ba5921c-4fbe-446c-b07f-5c8ac1b096ae",
+        "email": "Garett94@roq.tech",
+        "firstName": "Beau",
+        "lastName": "Schmidt",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/97034087",
+        "tenantId": null
+      },
+      {
+        "reference": "8ac7b50f-b9f9-4261-b174-bdc2b20e2add",
+        "email": "Armand91@roq.tech",
+        "firstName": "Hailee",
+        "lastName": "Herzog",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/748.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5125afa2-5416-4a1e-9ec5-f5ed077b3865",
+        "email": "Richard.Berge@roq.tech",
+        "firstName": "Duncan",
+        "lastName": "Daugherty",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1242.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c3738cb0-1c0d-4962-8d26-86ec4c402e1a",
+        "email": "Wanda59@roq.tech",
+        "firstName": "Kristin",
+        "lastName": "Daniel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1119.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "loan_officer": [
+      {
+        "id": "0c74127f-c618-48d3-bdf1-e03cd8acd261",
+        "first_name": "Emily",
+        "last_name": "Johnson",
+        "email": "emily.johnson@example.com",
+        "phone_number": "1234567890",
+        "created_at": "2023-09-27T08:00:27.660Z",
+        "updated_at": "2023-09-27T23:18:59.600Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "45af4525-aba4-4f81-bf51-6393b383af04",
+        "first_name": "Daniel",
+        "last_name": "Anderson",
+        "email": "daniel.anderson@example.com",
+        "phone_number": "2345678901",
+        "created_at": "2023-09-27T07:23:32.744Z",
+        "updated_at": "2023-09-27T07:02:07.917Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d50dc333-6ed8-4243-81b5-2e76cc1347e9",
+        "first_name": "Olivia",
+        "last_name": "Thomas",
+        "email": "olivia.thomas@example.com",
+        "phone_number": "3456789012",
+        "created_at": "2023-09-27T23:50:24.171Z",
+        "updated_at": "2023-09-28T01:02:31.542Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "015e07d5-7270-4b4e-9fc8-4b53a07fa756",
+        "first_name": "James",
+        "last_name": "Jackson",
+        "email": "james.jackson@example.com",
+        "phone_number": "4567890123",
+        "created_at": "2023-09-27T15:51:14.197Z",
+        "updated_at": "2023-09-28T01:58:45.780Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f3de50d6-85bb-4818-8bcc-9f20d6b8c121",
+        "first_name": "Sophia",
+        "last_name": "Harris",
+        "email": "sophia.harris@example.com",
+        "phone_number": "5678901234",
+        "created_at": "2023-09-27T20:19:52.066Z",
+        "updated_at": "2023-09-27T18:56:04.909Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "loan": [
+      {
+        "id": "2dbff958-09f7-4a41-bd58-d1fff03c3f8a",
+        "loan_amount": 53232,
+        "interest_rate": 25572,
+        "loan_term": 26580,
+        "monthly_emi": 51351,
+        "disbursal_date": "2023-09-27T23:23:51.435Z",
+        "created_at": "2023-09-27T08:47:08.844Z",
+        "updated_at": "2023-09-27T09:04:52.368Z",
+        "lender_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "13f9a881-9be7-4954-a66d-98954d31efe5",
+        "loan_amount": 14239,
+        "interest_rate": 4355,
+        "loan_term": 51638,
+        "monthly_emi": 95092,
+        "disbursal_date": "2023-09-27T04:42:07.333Z",
+        "created_at": "2023-09-27T17:40:42.723Z",
+        "updated_at": "2023-09-27T12:14:30.297Z",
+        "lender_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6730f93f-f389-40b1-ab7d-41ae365d28b5",
+        "loan_amount": 92103,
+        "interest_rate": 97031,
+        "loan_term": 45150,
+        "monthly_emi": 29738,
+        "disbursal_date": "2023-09-28T04:38:25.641Z",
+        "created_at": "2023-09-28T02:33:18.748Z",
+        "updated_at": "2023-09-28T02:28:54.737Z",
+        "lender_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "335fedf1-1c33-4d6a-91f2-cba30e61b31a",
+        "loan_amount": 52256,
+        "interest_rate": 53343,
+        "loan_term": 62818,
+        "monthly_emi": 1402,
+        "disbursal_date": "2023-09-27T14:51:56.641Z",
+        "created_at": "2023-09-27T20:23:58.781Z",
+        "updated_at": "2023-09-27T20:24:16.657Z",
+        "lender_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ef4a7f44-1740-467f-94e2-db642ee2acbf",
+        "loan_amount": 43982,
+        "interest_rate": 1378,
+        "loan_term": 68050,
+        "monthly_emi": 80737,
+        "disbursal_date": "2023-09-27T10:37:13.648Z",
+        "created_at": "2023-09-27T16:59:22.101Z",
+        "updated_at": "2023-09-27T17:39:54.549Z",
+        "lender_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "vehicle": [
+      {
+        "id": "29217e90-23a8-486e-9fdc-55d44a4d4f51",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 39351,
+        "color": "Red",
+        "price": 34111,
+        "created_at": "2023-09-27T13:00:21.485Z",
+        "updated_at": "2023-09-27T10:14:51.566Z",
+        "loan_id": "335fedf1-1c33-4d6a-91f2-cba30e61b31a"
+      },
+      {
+        "id": "e09df38f-f3eb-45ab-ab50-ae7c171a5c72",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 39554,
+        "color": "Blue",
+        "price": 63555,
+        "created_at": "2023-09-27T16:44:58.806Z",
+        "updated_at": "2023-09-27T22:31:25.182Z",
+        "loan_id": "6730f93f-f389-40b1-ab7d-41ae365d28b5"
+      },
+      {
+        "id": "6e17f295-a12d-49a8-8f43-736555621093",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 81724,
+        "color": "Black",
+        "price": 43749,
+        "created_at": "2023-09-28T00:18:46.890Z",
+        "updated_at": "2023-09-27T18:32:51.947Z",
+        "loan_id": "6730f93f-f389-40b1-ab7d-41ae365d28b5"
+      },
+      {
+        "id": "5edad057-f237-4355-b9c9-55f70c7df3fd",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 18927,
+        "color": "White",
+        "price": 35813,
+        "created_at": "2023-09-27T18:03:24.661Z",
+        "updated_at": "2023-09-27T15:48:51.027Z",
+        "loan_id": "ef4a7f44-1740-467f-94e2-db642ee2acbf"
+      },
+      {
+        "id": "009ad6ab-011b-4bf3-9b34-58252354a987",
+        "make": "Nissan",
+        "model": "Altima",
+        "year": 36342,
+        "color": "Silver",
+        "price": 24736,
+        "created_at": "2023-09-27T15:45:47.217Z",
+        "updated_at": "2023-09-27T09:42:53.757Z",
+        "loan_id": "335fedf1-1c33-4d6a-91f2-cba30e61b31a"
+      }
+    ],
+    "customer_service_representative": [
+      {
+        "id": "bb3220b7-f2f2-4326-b030-9efd07eb32f9",
+        "first_name": "Jennifer",
+        "last_name": "Smith",
+        "email": "jennifer.smith@example.com",
+        "phone_number": "6789012345",
+        "created_at": "2023-09-27T18:34:07.522Z",
+        "updated_at": "2023-09-28T01:23:22.657Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c7dda455-73a4-43be-81ec-34e6532df1e3",
+        "first_name": "Christopher",
+        "last_name": "Brown",
+        "email": "christopher.brown@example.com",
+        "phone_number": "7890123456",
+        "created_at": "2023-09-27T13:25:39.657Z",
+        "updated_at": "2023-09-27T15:03:52.943Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c8342d52-e006-4704-8436-a01ceaecefff",
+        "first_name": "Amanda",
+        "last_name": "Johnson",
+        "email": "amanda.johnson@example.com",
+        "phone_number": "8901234567",
+        "created_at": "2023-09-27T16:53:34.147Z",
+        "updated_at": "2023-09-27T14:10:19.620Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0a02ed25-4d2b-4e86-bd04-e2ad66659a7f",
+        "first_name": "Matthew",
+        "last_name": "Davis",
+        "email": "matthew.davis@example.com",
+        "phone_number": "9012345678",
+        "created_at": "2023-09-27T22:54:59.910Z",
+        "updated_at": "2023-09-27T07:37:35.299Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bfa7e4f4-e6dd-4645-af04-aa1e35b7009b",
+        "first_name": "Jessica",
+        "last_name": "Miller",
+        "email": "jessica.miller@example.com",
+        "phone_number": "0123456789",
+        "created_at": "2023-09-27T10:53:58.776Z",
+        "updated_at": "2023-09-27T09:43:52.253Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "e0243ad1-2d64-45b8-a6b2-9e8f30467a82",
+        "email": "Abe_Torphy55@roq.tech",
+        "firstName": "Leanne",
+        "lastName": "Sawayn",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/93402009",
+        "tenantId": null
+      },
+      {
+        "reference": "bd934cdd-182f-427a-9cb6-bef415a1602b",
+        "email": "Chloe_Torphy@roq.tech",
+        "firstName": "Jacinthe",
+        "lastName": "Pacocha-McLaughlin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/241.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "76007448-37a0-435e-b71c-11f439deb7d9",
+        "email": "Hillard30@roq.tech",
+        "firstName": "Shayne",
+        "lastName": "Windler",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/23440669",
+        "tenantId": null
+      },
+      {
+        "reference": "ef3b52f5-f590-4e54-99ce-fde8f6c25e23",
+        "email": "Adela_Homenick@roq.tech",
+        "firstName": "Carrie",
+        "lastName": "Dickens",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/54170595",
+        "tenantId": null
+      },
+      {
+        "reference": "769694a8-5976-4240-a318-0347dd593a82",
+        "email": "Dino37@roq.tech",
+        "firstName": "Marlon",
+        "lastName": "Hilll",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/172.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "loan_officer": [
+      {
+        "id": "accd4248-8828-4df6-946c-de4e482ed859",
+        "first_name": "David",
+        "last_name": "Brown",
+        "email": "davidbrown@example.com",
+        "phone_number": "1234567890",
+        "created_at": "2023-09-27T12:08:10.273Z",
+        "updated_at": "2023-09-28T02:22:43.124Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e8eee150-4b10-486d-9391-c601c99fac13",
+        "first_name": "Sarah",
+        "last_name": "Johnson",
+        "email": "sarahjohnson@example.com",
+        "phone_number": "9876543210",
+        "created_at": "2023-09-27T13:17:30.522Z",
+        "updated_at": "2023-09-27T11:37:09.652Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "da04e3aa-5968-4733-98b6-74fcf099870b",
+        "first_name": "Robert",
+        "last_name": "Davis",
+        "email": "robertdavis@example.com",
+        "phone_number": "5678901234",
+        "created_at": "2023-09-27T05:50:05.083Z",
+        "updated_at": "2023-09-27T06:49:23.859Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9ce7e8f5-e933-4749-9209-f77892bb5ca9",
+        "first_name": "Emily",
+        "last_name": "Miller",
+        "email": "emilymiller@example.com",
+        "phone_number": "4321098765",
+        "created_at": "2023-09-27T17:39:25.145Z",
+        "updated_at": "2023-09-27T15:05:41.632Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b6aff96b-8707-4237-9e13-14b31a04f805",
+        "first_name": "Daniel",
+        "last_name": "Wilson",
+        "email": "danielwilson@example.com",
+        "phone_number": "6789012345",
+        "created_at": "2023-09-27T16:50:48.719Z",
+        "updated_at": "2023-09-27T12:20:40.723Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "loan": [
+      {
+        "id": "94c77520-d9ed-4991-8941-55006a5d6894",
+        "loan_amount": 11835,
+        "interest_rate": 11200,
+        "loan_term": 56803,
+        "monthly_emi": 19642,
+        "disbursal_date": "2023-09-27T16:41:44.933Z",
+        "created_at": "2023-09-27T05:13:02.385Z",
+        "updated_at": "2023-09-27T13:32:01.167Z",
+        "lender_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6f420c2b-3670-4a87-b883-776631eec0d2",
+        "loan_amount": 59770,
+        "interest_rate": 62929,
+        "loan_term": 90609,
+        "monthly_emi": 2695,
+        "disbursal_date": "2023-09-27T13:26:42.252Z",
+        "created_at": "2023-09-28T02:49:33.327Z",
+        "updated_at": "2023-09-27T23:35:38.447Z",
+        "lender_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e2c57946-aaaa-4e5a-8cc8-8433d59d8a6b",
+        "loan_amount": 87744,
+        "interest_rate": 37428,
+        "loan_term": 64928,
+        "monthly_emi": 22274,
+        "disbursal_date": "2023-09-27T06:04:04.181Z",
+        "created_at": "2023-09-27T17:02:30.178Z",
+        "updated_at": "2023-09-27T15:43:40.231Z",
+        "lender_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7c40bd1e-32bb-4b36-8e66-66a006dbee2c",
+        "loan_amount": 31973,
+        "interest_rate": 99559,
+        "loan_term": 25793,
+        "monthly_emi": 13406,
+        "disbursal_date": "2023-09-27T20:58:02.808Z",
+        "created_at": "2023-09-27T17:09:44.747Z",
+        "updated_at": "2023-09-27T08:51:10.134Z",
+        "lender_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aef7349a-78ef-4e4e-81ec-f4ac912302aa",
+        "loan_amount": 45242,
+        "interest_rate": 6332,
+        "loan_term": 1657,
+        "monthly_emi": 28165,
+        "disbursal_date": "2023-09-28T00:18:06.513Z",
+        "created_at": "2023-09-27T15:51:41.679Z",
+        "updated_at": "2023-09-27T05:17:13.693Z",
+        "lender_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "vehicle": [
+      {
+        "id": "d7b26fef-b7dd-45ac-9d3a-4cb215018e1b",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 21908,
+        "color": "Red",
+        "price": 90991,
+        "created_at": "2023-09-27T19:37:23.433Z",
+        "updated_at": "2023-09-27T15:17:48.081Z",
+        "loan_id": "aef7349a-78ef-4e4e-81ec-f4ac912302aa"
+      },
+      {
+        "id": "2dff4dfc-6c09-47eb-814e-9969f3c8728f",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 17292,
+        "color": "Blue",
+        "price": 78219,
+        "created_at": "2023-09-27T21:37:53.134Z",
+        "updated_at": "2023-09-27T21:06:49.942Z",
+        "loan_id": "7c40bd1e-32bb-4b36-8e66-66a006dbee2c"
+      },
+      {
+        "id": "9de6f1da-f81c-41e3-8401-83e2bff8de41",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 79514,
+        "color": "Black",
+        "price": 1456,
+        "created_at": "2023-09-27T05:49:41.873Z",
+        "updated_at": "2023-09-27T06:45:40.087Z",
+        "loan_id": "7c40bd1e-32bb-4b36-8e66-66a006dbee2c"
+      },
+      {
+        "id": "ba2d8d86-a723-4e41-9339-48655d2fef3a",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 18919,
+        "color": "White",
+        "price": 21641,
+        "created_at": "2023-09-28T02:13:19.727Z",
+        "updated_at": "2023-09-27T23:10:46.677Z",
+        "loan_id": "6f420c2b-3670-4a87-b883-776631eec0d2"
+      },
+      {
+        "id": "f8890e8a-0c45-406b-ad73-932c8527dd62",
+        "make": "BMW",
+        "model": "X5",
+        "year": 44421,
+        "color": "Silver",
+        "price": 98981,
+        "created_at": "2023-09-27T17:53:07.917Z",
+        "updated_at": "2023-09-27T14:05:41.593Z",
+        "loan_id": "6f420c2b-3670-4a87-b883-776631eec0d2"
+      }
+    ],
+    "customer_service_representative": [
+      {
+        "id": "79b81a00-b77d-4de9-9a17-ddf4f86172fc",
+        "first_name": "Jennifer",
+        "last_name": "Anderson",
+        "email": "jenniferanderson@example.com",
+        "phone_number": "3456789012",
+        "created_at": "2023-09-27T06:25:42.825Z",
+        "updated_at": "2023-09-27T16:17:23.218Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "72f235dc-c5fa-453b-8dae-fc1f129ce61b",
+        "first_name": "Michael",
+        "last_name": "Brown",
+        "email": "michaelbrown@example.com",
+        "phone_number": "7890123456",
+        "created_at": "2023-09-27T15:25:36.811Z",
+        "updated_at": "2023-09-27T22:57:27.368Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c9690f41-4c08-4e54-9aaf-5416e8feebf1",
+        "first_name": "Emily",
+        "last_name": "Clark",
+        "email": "emilyclark@example.com",
+        "phone_number": "9012345678",
+        "created_at": "2023-09-27T08:52:06.138Z",
+        "updated_at": "2023-09-27T13:35:47.377Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f7f7baef-d784-4995-80f7-5519e5c219e5",
+        "first_name": "Christopher",
+        "last_name": "Davis",
+        "email": "christopherdavis@example.com",
+        "phone_number": "2345678901",
+        "created_at": "2023-09-28T03:07:51.722Z",
+        "updated_at": "2023-09-27T09:07:15.806Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b571af25-31fa-4338-8c73-453873e4371f",
+        "first_name": "Jessica",
+        "last_name": "Evans",
+        "email": "jessicaevans@example.com",
+        "phone_number": "6789012345",
+        "created_at": "2023-09-27T07:31:13.974Z",
+        "updated_at": "2023-09-27T20:59:12.858Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "f934ab6f-7c3f-42dd-95d0-c14409dd53f7",
+        "email": "Jamarcus19@roq.tech",
+        "firstName": "Ewald",
+        "lastName": "Marks",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/38235255",
+        "tenantId": null
+      },
+      {
+        "reference": "2280b798-1388-4a20-bad8-f633c24dcfd6",
+        "email": "Sunny52@roq.tech",
+        "firstName": "Alexane",
+        "lastName": "Ledner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/22160308",
+        "tenantId": null
+      },
+      {
+        "reference": "4d1fc6ed-d374-4af0-9869-b75681bc8e35",
+        "email": "Alysha_Hilll@roq.tech",
+        "firstName": "Clotilde",
+        "lastName": "Treutel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/21980556",
+        "tenantId": null
+      },
+      {
+        "reference": "41f5c3ba-1a02-4641-90ed-b44027888a89",
+        "email": "Delores.Emard43@roq.tech",
+        "firstName": "Alessandra",
+        "lastName": "Little",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/647.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f24db1e5-43dc-41f7-bf6a-b51810f5bcc6",
+        "email": "Rosemarie6@roq.tech",
+        "firstName": "Henderson",
+        "lastName": "Hayes",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/76998751",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "loan_officer": [
+      {
+        "id": "31b359f3-f4e5-49d1-ad3f-c4ea0229cbe0",
+        "first_name": "Emily",
+        "last_name": "Johnson",
+        "email": "emily.johnson@example.com",
+        "phone_number": "1234567890",
+        "created_at": "2023-09-27T14:46:53.136Z",
+        "updated_at": "2023-09-27T15:15:24.049Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0b351f86-226c-4d13-a673-e861a906e7f3",
+        "first_name": "Daniel",
+        "last_name": "Anderson",
+        "email": "daniel.anderson@example.com",
+        "phone_number": "9876543210",
+        "created_at": "2023-09-28T01:41:03.364Z",
+        "updated_at": "2023-09-27T10:28:28.647Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2a82d199-b865-438c-8d76-c1d5c51d2b4e",
+        "first_name": "Olivia",
+        "last_name": "Williams",
+        "email": "olivia.williams@example.com",
+        "phone_number": "5555555555",
+        "created_at": "2023-09-27T11:11:42.675Z",
+        "updated_at": "2023-09-27T08:35:35.762Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d7d54af0-8583-4fbb-97d0-c47e27d5e190",
+        "first_name": "Jacob",
+        "last_name": "Smith",
+        "email": "jacob.smith@example.com",
+        "phone_number": "1111111111",
+        "created_at": "2023-09-27T07:28:44.020Z",
+        "updated_at": "2023-09-28T01:59:31.740Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ecbdbadc-b06d-42cc-bf46-7ee8ae43322e",
+        "first_name": "Sophia",
+        "last_name": "Brown",
+        "email": "sophia.brown@example.com",
+        "phone_number": "9999999999",
+        "created_at": "2023-09-28T02:39:33.315Z",
+        "updated_at": "2023-09-27T15:58:52.206Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "loan": [
+      {
+        "id": "930ac349-be9d-4ac1-a9aa-7ca5b53065fd",
+        "loan_amount": 50556,
+        "interest_rate": 71774,
+        "loan_term": 96089,
+        "monthly_emi": 86874,
+        "disbursal_date": "2023-09-27T23:15:42.566Z",
+        "created_at": "2023-09-27T09:59:30.398Z",
+        "updated_at": "2023-09-27T09:40:44.955Z",
+        "lender_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a5ed9031-2966-4a80-a01d-de612dc3ecda",
+        "loan_amount": 1335,
+        "interest_rate": 91712,
+        "loan_term": 26716,
+        "monthly_emi": 82653,
+        "disbursal_date": "2023-09-27T05:58:25.961Z",
+        "created_at": "2023-09-27T13:02:09.196Z",
+        "updated_at": "2023-09-27T19:59:13.795Z",
+        "lender_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b094100b-3d6c-4559-b867-4407e962e608",
+        "loan_amount": 41158,
+        "interest_rate": 48703,
+        "loan_term": 58273,
+        "monthly_emi": 34676,
+        "disbursal_date": "2023-09-27T07:20:43.121Z",
+        "created_at": "2023-09-27T08:40:07.277Z",
+        "updated_at": "2023-09-28T02:46:35.781Z",
+        "lender_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a22e652f-791f-4c1a-bef1-80ced5c8bb0b",
+        "loan_amount": 61441,
+        "interest_rate": 53359,
+        "loan_term": 98790,
+        "monthly_emi": 41009,
+        "disbursal_date": "2023-09-27T14:53:12.125Z",
+        "created_at": "2023-09-27T13:25:18.052Z",
+        "updated_at": "2023-09-27T20:59:39.993Z",
+        "lender_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c356c240-8f48-4fca-9387-ea86ebc190e7",
+        "loan_amount": 58275,
+        "interest_rate": 10965,
+        "loan_term": 47164,
+        "monthly_emi": 30132,
+        "disbursal_date": "2023-09-28T00:04:16.270Z",
+        "created_at": "2023-09-28T02:09:17.645Z",
+        "updated_at": "2023-09-28T00:45:40.213Z",
+        "lender_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "vehicle": [
+      {
+        "id": "e7787275-5cc9-4ea0-99b3-640e9a321c22",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 38800,
+        "color": "Red",
+        "price": 66660,
+        "created_at": "2023-09-27T06:04:35.266Z",
+        "updated_at": "2023-09-27T16:55:57.953Z",
+        "loan_id": "a22e652f-791f-4c1a-bef1-80ced5c8bb0b"
+      },
+      {
+        "id": "4f497000-dc20-47de-80ef-2a5d0b5193dc",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 74950,
+        "color": "Blue",
+        "price": 46613,
+        "created_at": "2023-09-28T01:32:12.274Z",
+        "updated_at": "2023-09-28T01:50:36.528Z",
+        "loan_id": "c356c240-8f48-4fca-9387-ea86ebc190e7"
+      },
+      {
+        "id": "3bbb5838-e22f-47e1-bf42-228b8dbbc5b7",
+        "make": "Ford",
+        "model": "F-150",
+        "year": 47213,
+        "color": "Black",
+        "price": 43225,
+        "created_at": "2023-09-27T16:56:04.102Z",
+        "updated_at": "2023-09-28T02:12:18.933Z",
+        "loan_id": "a22e652f-791f-4c1a-bef1-80ced5c8bb0b"
+      },
+      {
+        "id": "c74b724e-49b0-4e47-abc6-134341ac436b",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 86820,
+        "color": "White",
+        "price": 28388,
+        "created_at": "2023-09-27T09:13:53.734Z",
+        "updated_at": "2023-09-27T14:38:13.738Z",
+        "loan_id": "930ac349-be9d-4ac1-a9aa-7ca5b53065fd"
+      },
+      {
+        "id": "5b8d3987-be07-42cb-bea6-a45c59437348",
+        "make": "Nissan",
+        "model": "Altima",
+        "year": 63757,
+        "color": "Silver",
+        "price": 54635,
+        "created_at": "2023-09-27T07:21:54.428Z",
+        "updated_at": "2023-09-27T18:13:06.882Z",
+        "loan_id": "b094100b-3d6c-4559-b867-4407e962e608"
+      }
+    ],
+    "customer_service_representative": [
+      {
+        "id": "d946f3c1-7ddf-4a6e-b5d5-7e7ab90d0427",
+        "first_name": "Jessica",
+        "last_name": "Taylor",
+        "email": "jessica.taylor@example.com",
+        "phone_number": "5551234567",
+        "created_at": "2023-09-28T02:02:24.237Z",
+        "updated_at": "2023-09-27T10:51:00.676Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f7b841de-da4c-4ce3-8aa1-7df250c03844",
+        "first_name": "Christopher",
+        "last_name": "Wilson",
+        "email": "christopher.wilson@example.com",
+        "phone_number": "5559876543",
+        "created_at": "2023-09-27T11:33:09.200Z",
+        "updated_at": "2023-09-27T10:46:28.186Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f602bc9a-2a4f-4a27-bfb9-5dec5ebcbeb7",
+        "first_name": "Amanda",
+        "last_name": "Robinson",
+        "email": "amanda.robinson@example.com",
+        "phone_number": "5551112222",
+        "created_at": "2023-09-27T10:21:33.487Z",
+        "updated_at": "2023-09-28T01:34:05.667Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1889d693-260e-41f4-8319-7835d61e2fb0",
+        "first_name": "Matthew",
+        "last_name": "Clark",
+        "email": "matthew.clark@example.com",
+        "phone_number": "5559998888",
+        "created_at": "2023-09-27T05:01:55.191Z",
+        "updated_at": "2023-09-27T19:43:04.828Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d890d93e-bcdf-490e-bd0a-9d5d020db7a5",
+        "first_name": "Jennifer",
+        "last_name": "Lewis",
+        "email": "jennifer.lewis@example.com",
+        "phone_number": "5553334444",
+        "created_at": "2023-09-27T15:09:36.609Z",
+        "updated_at": "2023-09-27T15:14:36.401Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "a897e4e9-2253-4f92-9e2b-02b0e11f2c2a",
+        "email": "Reyna64@roq.tech",
+        "firstName": "Genesis",
+        "lastName": "McGlynn",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3193050",
+        "tenantId": null
+      },
+      {
+        "reference": "c0f8706f-da37-46a5-9e54-9a6f8b420f1f",
+        "email": "Mafalda.Gleason@roq.tech",
+        "firstName": "Macey",
+        "lastName": "Sawayn",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64854056",
+        "tenantId": null
+      },
+      {
+        "reference": "893ac838-3bd4-4a96-921e-c60d6fea51c1",
+        "email": "Asha.Davis@roq.tech",
+        "firstName": "Rebeka",
+        "lastName": "Auer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/277.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "594e744e-1423-40aa-a61e-211e082b77dc",
+        "email": "Abbey15@roq.tech",
+        "firstName": "Marie",
+        "lastName": "Heidenreich",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/483.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9dd99fec-298c-4ad0-8203-5d5358a54002",
+        "email": "Barbara75@roq.tech",
+        "firstName": "Elvie",
+        "lastName": "Johnston",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/842.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "loan_officer": [
+      {
+        "id": "35c1fb85-ba2b-4b93-8ec4-5ec0fd8505f8",
+        "first_name": "Emily",
+        "last_name": "Johnson",
+        "email": "emily.johnson@example.com",
+        "phone_number": "1234567890",
+        "created_at": "2023-09-28T04:39:05.794Z",
+        "updated_at": "2023-09-27T08:35:56.066Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "85835175-2507-4257-ba3f-3b337bad683f",
+        "first_name": "James",
+        "last_name": "Williams",
+        "email": "james.williams@example.com",
+        "phone_number": "9876543210",
+        "created_at": "2023-09-28T01:36:32.808Z",
+        "updated_at": "2023-09-27T19:54:57.829Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b5dc7b2a-771d-433f-baf1-006df485715b",
+        "first_name": "Olivia",
+        "last_name": "Smith",
+        "email": "olivia.smith@example.com",
+        "phone_number": "5555555555",
+        "created_at": "2023-09-28T02:08:32.299Z",
+        "updated_at": "2023-09-27T08:27:38.445Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b2ba25ce-995e-4548-addb-384e6ea1bb5c",
+        "first_name": "Daniel",
+        "last_name": "Brown",
+        "email": "daniel.brown@example.com",
+        "phone_number": "1111111111",
+        "created_at": "2023-09-27T21:02:27.053Z",
+        "updated_at": "2023-09-27T05:00:05.760Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6dc227f8-2726-431d-b8cb-0bdd5ef85014",
+        "first_name": "Sophia",
+        "last_name": "Taylor",
+        "email": "sophia.taylor@example.com",
+        "phone_number": "9999999999",
+        "created_at": "2023-09-27T15:18:14.930Z",
+        "updated_at": "2023-09-27T08:45:16.337Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "loan": [
+      {
+        "id": "8ef0fb07-ea84-4cf8-a65a-067c7be5b077",
+        "loan_amount": 29902,
+        "interest_rate": 96529,
+        "loan_term": 1410,
+        "monthly_emi": 12053,
+        "disbursal_date": "2023-09-27T18:12:08.440Z",
+        "created_at": "2023-09-27T18:06:52.785Z",
+        "updated_at": "2023-09-27T19:09:53.311Z",
+        "lender_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6cb5468b-6713-488a-9c9d-451953464253",
+        "loan_amount": 86850,
+        "interest_rate": 33166,
+        "loan_term": 76964,
+        "monthly_emi": 66804,
+        "disbursal_date": "2023-09-27T05:29:51.535Z",
+        "created_at": "2023-09-27T13:44:09.278Z",
+        "updated_at": "2023-09-27T09:28:18.831Z",
+        "lender_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "484a1de3-c553-4cbe-83c5-4a4e0d6e23a8",
+        "loan_amount": 41017,
+        "interest_rate": 6074,
+        "loan_term": 52236,
+        "monthly_emi": 54637,
+        "disbursal_date": "2023-09-28T00:58:54.478Z",
+        "created_at": "2023-09-28T01:31:30.895Z",
+        "updated_at": "2023-09-27T20:59:45.230Z",
+        "lender_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3c09db2e-9336-481e-bbc0-b06748c14a0f",
+        "loan_amount": 45161,
+        "interest_rate": 14254,
+        "loan_term": 62198,
+        "monthly_emi": 89231,
+        "disbursal_date": "2023-09-27T11:16:20.686Z",
+        "created_at": "2023-09-27T18:07:07.402Z",
+        "updated_at": "2023-09-27T13:19:44.616Z",
+        "lender_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e49886e5-e267-4708-afbe-8f61f9e28216",
+        "loan_amount": 6369,
+        "interest_rate": 98424,
+        "loan_term": 12214,
+        "monthly_emi": 49294,
+        "disbursal_date": "2023-09-27T07:34:57.298Z",
+        "created_at": "2023-09-27T10:42:22.342Z",
+        "updated_at": "2023-09-28T02:05:42.723Z",
+        "lender_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "vehicle": [
+      {
+        "id": "ee478aaf-5019-4f12-9e06-7985df23211c",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 52835,
+        "color": "Red",
+        "price": 39811,
+        "created_at": "2023-09-28T02:49:25.458Z",
+        "updated_at": "2023-09-27T08:17:26.091Z",
+        "loan_id": "6cb5468b-6713-488a-9c9d-451953464253"
+      },
+      {
+        "id": "d211c7be-5f05-4ba6-bcac-b6462f87620e",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 70688,
+        "color": "Blue",
+        "price": 1452,
+        "created_at": "2023-09-28T03:00:01.353Z",
+        "updated_at": "2023-09-27T20:23:11.996Z",
+        "loan_id": "e49886e5-e267-4708-afbe-8f61f9e28216"
+      },
+      {
+        "id": "c3f69234-3ecd-464f-bff0-08545a95ed1e",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 31154,
+        "color": "Black",
+        "price": 28111,
+        "created_at": "2023-09-27T10:50:29.167Z",
+        "updated_at": "2023-09-27T10:03:42.570Z",
+        "loan_id": "e49886e5-e267-4708-afbe-8f61f9e28216"
+      },
+      {
+        "id": "e1d1f17b-3aa5-4136-9e56-4487598ee33a",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 83418,
+        "color": "White",
+        "price": 49500,
+        "created_at": "2023-09-27T23:24:24.907Z",
+        "updated_at": "2023-09-27T16:23:38.314Z",
+        "loan_id": "484a1de3-c553-4cbe-83c5-4a4e0d6e23a8"
+      },
+      {
+        "id": "86840bf2-a091-4bb8-9e01-eabcd09ed129",
+        "make": "BMW",
+        "model": "X5",
+        "year": 38039,
+        "color": "Silver",
+        "price": 10227,
+        "created_at": "2023-09-27T07:21:08.218Z",
+        "updated_at": "2023-09-27T11:11:57.569Z",
+        "loan_id": "e49886e5-e267-4708-afbe-8f61f9e28216"
+      }
+    ],
+    "customer_service_representative": [
+      {
+        "id": "36f44729-0aab-4b57-a326-dab1e88e552a",
+        "first_name": "Jennifer",
+        "last_name": "Smith",
+        "email": "jennifer.smith@example.com",
+        "phone_number": "5551234567",
+        "created_at": "2023-09-28T04:17:32.523Z",
+        "updated_at": "2023-09-27T05:03:49.713Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d71e1fb6-0c4c-4df6-8b82-2767b127c179",
+        "first_name": "Michael",
+        "last_name": "Johnson",
+        "email": "michael.johnson@example.com",
+        "phone_number": "5559876543",
+        "created_at": "2023-09-27T13:09:39.723Z",
+        "updated_at": "2023-09-27T16:25:38.237Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "377c884f-4866-4234-a726-31e3cd1b6f4f",
+        "first_name": "Emma",
+        "last_name": "Brown",
+        "email": "emma.brown@example.com",
+        "phone_number": "5551112222",
+        "created_at": "2023-09-27T08:46:26.390Z",
+        "updated_at": "2023-09-28T04:26:58.899Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "01b8fd2e-5782-4621-a8bf-9f740411ec1a",
+        "first_name": "Andrew",
+        "last_name": "Taylor",
+        "email": "andrew.taylor@example.com",
+        "phone_number": "5559998888",
+        "created_at": "2023-09-27T23:56:18.240Z",
+        "updated_at": "2023-09-28T03:21:25.795Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "44dbfe6d-3b82-4535-be4d-e4409d5bf38c",
+        "first_name": "Grace",
+        "last_name": "Miller",
+        "email": "grace.miller@example.com",
+        "phone_number": "5554443333",
+        "created_at": "2023-09-28T04:27:40.698Z",
+        "updated_at": "2023-09-28T00:23:29.122Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "36f20435-e2c6-43c4-b102-3d4516f5425c",
+        "email": "Antonette_Senger@roq.tech",
+        "firstName": "Arden",
+        "lastName": "Doyle",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/608.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "245cb52b-93a3-419b-b6d0-710715a64cd1",
+        "email": "Vanessa22@roq.tech",
+        "firstName": "Casandra",
+        "lastName": "Kunze",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/60573543",
+        "tenantId": null
+      },
+      {
+        "reference": "45ec6b7f-a3a1-4cb3-8f6e-12b418ff8e8c",
+        "email": "Angela_Hagenes@roq.tech",
+        "firstName": "Christina",
+        "lastName": "Willms",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/956.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "80a00ce3-e2e1-4c0a-87aa-237b88cfda71",
+        "email": "Joyce_Frami@roq.tech",
+        "firstName": "Savanna",
+        "lastName": "Zulauf",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/769.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6179437e-1025-4493-b616-7ec72c98764b",
+        "email": "Raul.Jenkins@roq.tech",
+        "firstName": "Cletus",
+        "lastName": "Schmitt",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64199652",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "loan_officer": [
+      {
+        "id": "a99f48e4-37a6-44fb-b162-c32c12f24064",
+        "first_name": "Emily",
+        "last_name": "Anderson",
+        "email": "emily@example.com",
+        "phone_number": "1234567890",
+        "created_at": "2023-09-27T12:12:46.077Z",
+        "updated_at": "2023-09-27T20:16:00.513Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "198513db-a19e-4b84-b167-5ec04c895f0b",
+        "first_name": "David",
+        "last_name": "Wilson",
+        "email": "david@example.com",
+        "phone_number": "9876543210",
+        "created_at": "2023-09-28T01:02:47.377Z",
+        "updated_at": "2023-09-28T01:19:05.308Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2f4fea9d-1295-4233-9852-a3eedd192f37",
+        "first_name": "Sophia",
+        "last_name": "Taylor",
+        "email": "sophia@example.com",
+        "phone_number": "5555555555",
+        "created_at": "2023-09-28T04:31:47.185Z",
+        "updated_at": "2023-09-28T04:16:54.137Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3b295c3f-88db-44e3-9c80-6b7abc96c2e8",
+        "first_name": "Michael",
+        "last_name": "Miller",
+        "email": "michael@example.com",
+        "phone_number": "1111111111",
+        "created_at": "2023-09-27T07:30:18.244Z",
+        "updated_at": "2023-09-27T16:44:15.257Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "35be7e8c-3a94-4d58-a410-58fbeda3c674",
+        "first_name": "Olivia",
+        "last_name": "Brown",
+        "email": "olivia@example.com",
+        "phone_number": "9999999999",
+        "created_at": "2023-09-27T13:50:19.739Z",
+        "updated_at": "2023-09-27T23:33:48.618Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "loan": [
+      {
+        "id": "4128cb94-9f05-42bc-9e91-a5a81a3b7fee",
+        "loan_amount": 80539,
+        "interest_rate": 6377,
+        "loan_term": 64273,
+        "monthly_emi": 35934,
+        "disbursal_date": "2023-09-28T01:09:35.081Z",
+        "created_at": "2023-09-27T22:23:38.280Z",
+        "updated_at": "2023-09-27T10:00:35.069Z",
+        "lender_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "576d904f-0314-4170-9a77-3be0b35505e5",
+        "loan_amount": 97050,
+        "interest_rate": 61048,
+        "loan_term": 5609,
+        "monthly_emi": 35112,
+        "disbursal_date": "2023-09-27T11:49:26.926Z",
+        "created_at": "2023-09-27T19:39:31.243Z",
+        "updated_at": "2023-09-27T20:18:30.065Z",
+        "lender_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2d97a3b6-09e6-457c-be54-a17e0a324165",
+        "loan_amount": 4969,
+        "interest_rate": 28385,
+        "loan_term": 96528,
+        "monthly_emi": 68503,
+        "disbursal_date": "2023-09-27T09:13:00.624Z",
+        "created_at": "2023-09-27T06:37:34.140Z",
+        "updated_at": "2023-09-27T21:07:35.532Z",
+        "lender_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "33336e8a-91d5-43d3-9eb9-6c14b7689c88",
+        "loan_amount": 64429,
+        "interest_rate": 33772,
+        "loan_term": 67703,
+        "monthly_emi": 56268,
+        "disbursal_date": "2023-09-27T09:18:46.158Z",
+        "created_at": "2023-09-27T13:36:00.831Z",
+        "updated_at": "2023-09-27T15:09:22.269Z",
+        "lender_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "73f5fbdc-3b77-4457-ae31-3a86f9727cd2",
+        "loan_amount": 28148,
+        "interest_rate": 53738,
+        "loan_term": 36044,
+        "monthly_emi": 1985,
+        "disbursal_date": "2023-09-27T09:08:21.417Z",
+        "created_at": "2023-09-27T14:34:57.874Z",
+        "updated_at": "2023-09-27T13:14:34.816Z",
+        "lender_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "vehicle": [
+      {
+        "id": "762c1cdb-ca5f-4825-b9b3-6d62c631ef08",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 41902,
+        "color": "Red",
+        "price": 65217,
+        "created_at": "2023-09-27T17:36:52.728Z",
+        "updated_at": "2023-09-27T09:44:28.627Z",
+        "loan_id": "4128cb94-9f05-42bc-9e91-a5a81a3b7fee"
+      },
+      {
+        "id": "724fcd3a-2e5f-4744-ba86-750c5be137ee",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 31182,
+        "color": "Blue",
+        "price": 41201,
+        "created_at": "2023-09-27T06:53:26.892Z",
+        "updated_at": "2023-09-28T01:51:14.727Z",
+        "loan_id": "33336e8a-91d5-43d3-9eb9-6c14b7689c88"
+      },
+      {
+        "id": "de9e87a0-1f66-49fd-b9bb-93c8e1f6bfb6",
+        "make": "Ford",
+        "model": "F-150",
+        "year": 8980,
+        "color": "White",
+        "price": 94803,
+        "created_at": "2023-09-27T16:40:50.868Z",
+        "updated_at": "2023-09-27T06:56:53.284Z",
+        "loan_id": "33336e8a-91d5-43d3-9eb9-6c14b7689c88"
+      },
+      {
+        "id": "787051f4-8165-4c0f-9e22-3917b97a841e",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 28492,
+        "color": "Black",
+        "price": 24894,
+        "created_at": "2023-09-27T18:34:24.429Z",
+        "updated_at": "2023-09-28T00:03:25.150Z",
+        "loan_id": "2d97a3b6-09e6-457c-be54-a17e0a324165"
+      },
+      {
+        "id": "95cad38e-2c65-4e8c-8a52-9ef45e2f9c92",
+        "make": "BMW",
+        "model": "X5",
+        "year": 97755,
+        "color": "Silver",
+        "price": 25916,
+        "created_at": "2023-09-27T14:11:25.940Z",
+        "updated_at": "2023-09-27T14:17:24.846Z",
+        "loan_id": "73f5fbdc-3b77-4457-ae31-3a86f9727cd2"
+      }
+    ],
+    "customer_service_representative": [
+      {
+        "id": "e9126a2c-18ff-4a88-88da-fd633be05d17",
+        "first_name": "Jessica",
+        "last_name": "Johnson",
+        "email": "jessica@example.com",
+        "phone_number": "5551234567",
+        "created_at": "2023-09-27T10:42:01.589Z",
+        "updated_at": "2023-09-27T11:33:24.534Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c9b9b4c7-b586-4acb-94ae-1f0eac302679",
+        "first_name": "Daniel",
+        "last_name": "Brown",
+        "email": "daniel@example.com",
+        "phone_number": "5559876543",
+        "created_at": "2023-09-27T14:58:28.355Z",
+        "updated_at": "2023-09-27T15:17:25.513Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d7df3c43-30ca-4a10-a165-ec5f11168f82",
+        "first_name": "Emma",
+        "last_name": "Wilson",
+        "email": "emma@example.com",
+        "phone_number": "5551112222",
+        "created_at": "2023-09-27T21:03:31.145Z",
+        "updated_at": "2023-09-28T02:51:07.405Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "55b87a1c-0dec-43f6-8803-14fb7a30b138",
+        "first_name": "Christopher",
+        "last_name": "Anderson",
+        "email": "christopher@example.com",
+        "phone_number": "5559998888",
+        "created_at": "2023-09-27T10:28:20.249Z",
+        "updated_at": "2023-09-27T07:25:41.299Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a6b3849d-70cd-4612-bf0a-f64678f154b5",
+        "first_name": "Sophia",
+        "last_name": "Taylor",
+        "email": "sophia@example.com",
+        "phone_number": "5554443333",
+        "created_at": "2023-09-27T18:13:41.919Z",
+        "updated_at": "2023-09-27T14:20:53.092Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "0a5545fb-95f6-4935-990e-5e0bf2878a84",
+        "email": "Enoch.Braun@roq.tech",
+        "firstName": "Liam",
+        "lastName": "Rau",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1040.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "cd0e7bf3-1cd3-458e-b5dd-08aa595e6c72",
+        "email": "Courtney98@roq.tech",
+        "firstName": "Theodore",
+        "lastName": "Gorczany",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/89548431",
+        "tenantId": null
+      },
+      {
+        "reference": "8739ae69-81fb-4992-aa1d-b2caf9e778da",
+        "email": "Brant83@roq.tech",
+        "firstName": "Angela",
+        "lastName": "Cruickshank",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4886425",
+        "tenantId": null
+      },
+      {
+        "reference": "dbd593b6-8755-46fd-92f6-740392b22f82",
+        "email": "Brett.Kassulke28@roq.tech",
+        "firstName": "Charley",
+        "lastName": "Barton",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/68939544",
+        "tenantId": null
+      },
+      {
+        "reference": "f2c10bbe-8e37-4ca1-a1a2-23af3f5ad7be",
+        "email": "Jordane.Skiles@roq.tech",
+        "firstName": "Leslie",
+        "lastName": "Kerluke",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1055.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "loan_officer": [
+      {
+        "id": "d586f073-1592-4518-ab4e-54231c82f47b",
+        "first_name": "Michael",
+        "last_name": "Wilson",
+        "email": "loanofficer1@example.com",
+        "phone_number": "1234567890",
+        "created_at": "2023-09-27T19:18:38.132Z",
+        "updated_at": "2023-09-27T09:20:13.636Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3c2bb925-a036-4e86-9122-7c7f75212e4e",
+        "first_name": "Emily",
+        "last_name": "Johnson",
+        "email": "loanofficer2@example.com",
+        "phone_number": "0987654321",
+        "created_at": "2023-09-28T04:29:41.093Z",
+        "updated_at": "2023-09-27T22:28:15.551Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3dde7365-0348-4f33-b4b1-e71761113ae9",
+        "first_name": "Daniel",
+        "last_name": "Smith",
+        "email": "loanofficer3@example.com",
+        "phone_number": "9876543210",
+        "created_at": "2023-09-27T14:56:39.214Z",
+        "updated_at": "2023-09-27T20:41:56.293Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0e733fff-519f-4435-b789-5565c0054c87",
+        "first_name": "Olivia",
+        "last_name": "Brown",
+        "email": "loanofficer4@example.com",
+        "phone_number": "0123456789",
+        "created_at": "2023-09-27T12:47:34.018Z",
+        "updated_at": "2023-09-28T01:51:44.845Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e2335593-f41e-42db-8b98-7cf25e2151d4",
+        "first_name": "David",
+        "last_name": "Davis",
+        "email": "loanofficer5@example.com",
+        "phone_number": "5678901234",
+        "created_at": "2023-09-27T05:18:24.831Z",
+        "updated_at": "2023-09-27T22:17:00.214Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "loan": [
+      {
+        "id": "268d6843-1556-4c6e-9aad-9e3dfb5ad38f",
+        "loan_amount": 18708,
+        "interest_rate": 71698,
+        "loan_term": 64597,
+        "monthly_emi": 80373,
+        "disbursal_date": "2023-09-28T02:47:06.393Z",
+        "created_at": "2023-09-27T13:23:55.861Z",
+        "updated_at": "2023-09-27T10:20:23.040Z",
+        "lender_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "33ae7cad-cc70-4ec3-8322-37c8cb742947",
+        "loan_amount": 24316,
+        "interest_rate": 74434,
+        "loan_term": 26768,
+        "monthly_emi": 160,
+        "disbursal_date": "2023-09-27T19:06:41.153Z",
+        "created_at": "2023-09-27T05:59:08.009Z",
+        "updated_at": "2023-09-27T20:21:54.452Z",
+        "lender_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "28897b2d-a34f-4c2a-b3af-c6795eb2e515",
+        "loan_amount": 64841,
+        "interest_rate": 75028,
+        "loan_term": 61229,
+        "monthly_emi": 1530,
+        "disbursal_date": "2023-09-27T22:09:46.110Z",
+        "created_at": "2023-09-27T22:45:25.157Z",
+        "updated_at": "2023-09-27T11:08:18.244Z",
+        "lender_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0109dd92-1ff1-475f-b955-53e0975991fc",
+        "loan_amount": 79265,
+        "interest_rate": 9288,
+        "loan_term": 35712,
+        "monthly_emi": 77491,
+        "disbursal_date": "2023-09-27T20:18:38.792Z",
+        "created_at": "2023-09-27T19:44:45.061Z",
+        "updated_at": "2023-09-27T19:40:23.568Z",
+        "lender_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "365b4804-9b85-45f9-8fe0-35b8fd48a602",
+        "loan_amount": 80913,
+        "interest_rate": 94010,
+        "loan_term": 9959,
+        "monthly_emi": 39066,
+        "disbursal_date": "2023-09-27T23:10:12.815Z",
+        "created_at": "2023-09-27T18:24:23.584Z",
+        "updated_at": "2023-09-27T23:05:49.453Z",
+        "lender_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "vehicle": [
+      {
+        "id": "7ab1378f-cdd8-48bd-9783-ec6607767be1",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 89916,
+        "color": "Red",
+        "price": 62993,
+        "created_at": "2023-09-27T06:14:02.123Z",
+        "updated_at": "2023-09-27T17:06:49.395Z",
+        "loan_id": "0109dd92-1ff1-475f-b955-53e0975991fc"
+      },
+      {
+        "id": "ff925b83-9f64-4bc1-9ef2-d7d4084efe11",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 78309,
+        "color": "Blue",
+        "price": 19808,
+        "created_at": "2023-09-27T07:59:20.743Z",
+        "updated_at": "2023-09-28T02:28:52.540Z",
+        "loan_id": "268d6843-1556-4c6e-9aad-9e3dfb5ad38f"
+      },
+      {
+        "id": "3a09b938-82b6-47be-8408-2ffdd9890aa6",
+        "make": "Ford",
+        "model": "F-150",
+        "year": 43835,
+        "color": "Black",
+        "price": 32595,
+        "created_at": "2023-09-27T10:54:18.490Z",
+        "updated_at": "2023-09-27T07:58:14.315Z",
+        "loan_id": "268d6843-1556-4c6e-9aad-9e3dfb5ad38f"
+      },
+      {
+        "id": "b6ec9bc7-0566-46bb-8a67-82baf4240d4a",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 5328,
+        "color": "White",
+        "price": 64469,
+        "created_at": "2023-09-27T13:27:05.729Z",
+        "updated_at": "2023-09-27T09:25:13.872Z",
+        "loan_id": "33ae7cad-cc70-4ec3-8322-37c8cb742947"
+      },
+      {
+        "id": "223f35e0-bc43-4144-8e24-af69c07373e5",
+        "make": "Nissan",
+        "model": "Altima",
+        "year": 96361,
+        "color": "Silver",
+        "price": 70065,
+        "created_at": "2023-09-27T07:59:31.144Z",
+        "updated_at": "2023-09-28T04:08:42.057Z",
+        "loan_id": "28897b2d-a34f-4c2a-b3af-c6795eb2e515"
+      }
+    ],
+    "customer_service_representative": [
+      {
+        "id": "a4ffafd9-ad9f-4949-b7ca-907d25ea4f5a",
+        "first_name": "Sarah",
+        "last_name": "Taylor",
+        "email": "csr1@example.com",
+        "phone_number": "1234567890",
+        "created_at": "2023-09-27T21:05:53.631Z",
+        "updated_at": "2023-09-28T04:36:40.513Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0704b8f8-9fc3-4195-9a98-adc80462e431",
+        "first_name": "Matthew",
+        "last_name": "Clark",
+        "email": "csr2@example.com",
+        "phone_number": "0987654321",
+        "created_at": "2023-09-27T06:07:44.505Z",
+        "updated_at": "2023-09-27T19:22:19.072Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d04411b9-a922-46e6-85e4-80277479857a",
+        "first_name": "Emma",
+        "last_name": "Anderson",
+        "email": "csr3@example.com",
+        "phone_number": "9876543210",
+        "created_at": "2023-09-27T13:48:07.270Z",
+        "updated_at": "2023-09-27T22:57:50.034Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "36ea4975-aa15-400f-83a7-0fe73ff2ac2a",
+        "first_name": "Christopher",
+        "last_name": "Harris",
+        "email": "csr4@example.com",
+        "phone_number": "0123456789",
+        "created_at": "2023-09-27T05:23:44.012Z",
+        "updated_at": "2023-09-27T16:58:14.155Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "57c04fc5-b92b-4251-8e25-ea77e4fb9132",
+        "first_name": "Olivia",
+        "last_name": "Lee",
+        "email": "csr5@example.com",
+        "phone_number": "5678901234",
+        "created_at": "2023-09-27T07:06:19.966Z",
+        "updated_at": "2023-09-27T18:33:27.127Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "171569fe-19d9-43ab-a051-2013f9796468",
+        "email": "Diamond.Mante@roq.tech",
+        "firstName": "Moses",
+        "lastName": "Ullrich",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1109030",
+        "tenantId": null
+      },
+      {
+        "reference": "8c325040-a1d7-4cf6-be07-db39197a4d7c",
+        "email": "Kenna.Halvorson63@roq.tech",
+        "firstName": "Webster",
+        "lastName": "Marquardt",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/8.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3d0691af-3455-44c9-9650-82bc4e9c4914",
+        "email": "Nina36@roq.tech",
+        "firstName": "Maritza",
+        "lastName": "Pfannerstill",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4672758",
+        "tenantId": null
+      },
+      {
+        "reference": "d0f1ccd4-1643-4e4f-a10b-9f90ee85f988",
+        "email": "Lyric_Hamill@roq.tech",
+        "firstName": "Ransom",
+        "lastName": "Bruen",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/50682039",
+        "tenantId": null
+      },
+      {
+        "reference": "99afa8ca-84b5-48e2-a710-6f6f019dcee6",
+        "email": "Davin_Hoeger44@roq.tech",
+        "firstName": "Adele",
+        "lastName": "Altenwerth",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/791.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "loan_officer": [
+      {
+        "id": "3b28db02-2757-4020-ae25-0b8ff55888a4",
+        "first_name": "David",
+        "last_name": "Johnson",
+        "email": "david.johnson@example.com",
+        "phone_number": "1234567890",
+        "created_at": "2023-09-27T17:27:35.232Z",
+        "updated_at": "2023-09-27T16:32:33.893Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fdeca2c6-0ebf-498b-80ce-925ced853ec0",
+        "first_name": "Emily",
+        "last_name": "Anderson",
+        "email": "emily.anderson@example.com",
+        "phone_number": "9876543210",
+        "created_at": "2023-09-27T17:53:32.386Z",
+        "updated_at": "2023-09-27T15:40:01.471Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a80503bc-1095-4e73-b9de-1e491109b35f",
+        "first_name": "Daniel",
+        "last_name": "Miller",
+        "email": "daniel.miller@example.com",
+        "phone_number": "5555555555",
+        "created_at": "2023-09-27T08:30:46.293Z",
+        "updated_at": "2023-09-27T11:42:42.140Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d6827073-9e30-44e1-bcf8-6297bbee5644",
+        "first_name": "Olivia",
+        "last_name": "Taylor",
+        "email": "olivia.taylor@example.com",
+        "phone_number": "1111111111",
+        "created_at": "2023-09-28T01:48:41.982Z",
+        "updated_at": "2023-09-27T15:27:46.146Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0eeb9b74-c8da-43db-99c4-4d3bfa6b09da",
+        "first_name": "Andrew",
+        "last_name": "Wilson",
+        "email": "andrew.wilson@example.com",
+        "phone_number": "9999999999",
+        "created_at": "2023-09-27T23:56:13.502Z",
+        "updated_at": "2023-09-27T05:45:03.045Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "loan": [
+      {
+        "id": "8c8290cf-8b47-42d6-a5b2-4a50cb095df7",
+        "loan_amount": 56239,
+        "interest_rate": 53779,
+        "loan_term": 38302,
+        "monthly_emi": 52151,
+        "disbursal_date": "2023-09-27T13:30:52.784Z",
+        "created_at": "2023-09-27T15:21:44.083Z",
+        "updated_at": "2023-09-27T11:06:03.134Z",
+        "lender_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "218b768d-13e6-45c7-ade0-bcce2a4ca951",
+        "loan_amount": 3471,
+        "interest_rate": 92173,
+        "loan_term": 33519,
+        "monthly_emi": 33048,
+        "disbursal_date": "2023-09-28T02:19:21.846Z",
+        "created_at": "2023-09-27T19:39:22.944Z",
+        "updated_at": "2023-09-28T01:39:19.325Z",
+        "lender_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0f9e5bb4-7173-4e80-8cc8-40a672585b39",
+        "loan_amount": 46299,
+        "interest_rate": 80182,
+        "loan_term": 13466,
+        "monthly_emi": 40340,
+        "disbursal_date": "2023-09-27T06:32:19.841Z",
+        "created_at": "2023-09-27T20:22:42.103Z",
+        "updated_at": "2023-09-27T11:35:43.527Z",
+        "lender_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1ca78508-64d3-436b-b0c0-11ce025f3703",
+        "loan_amount": 44456,
+        "interest_rate": 53370,
+        "loan_term": 82019,
+        "monthly_emi": 6394,
+        "disbursal_date": "2023-09-27T11:07:41.040Z",
+        "created_at": "2023-09-27T17:48:21.240Z",
+        "updated_at": "2023-09-27T11:20:07.863Z",
+        "lender_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "016a222a-a2b9-4066-8e1e-592f56e21666",
+        "loan_amount": 82143,
+        "interest_rate": 28306,
+        "loan_term": 83824,
+        "monthly_emi": 33601,
+        "disbursal_date": "2023-09-27T18:44:55.366Z",
+        "created_at": "2023-09-27T20:01:30.304Z",
+        "updated_at": "2023-09-27T11:25:50.786Z",
+        "lender_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "vehicle": [
+      {
+        "id": "cc60fd40-bf10-49d2-9d4e-38c9e5d28066",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 50108,
+        "color": "Red",
+        "price": 20290,
+        "created_at": "2023-09-27T07:11:32.326Z",
+        "updated_at": "2023-09-27T13:21:12.517Z",
+        "loan_id": "8c8290cf-8b47-42d6-a5b2-4a50cb095df7"
+      },
+      {
+        "id": "d51340b3-3996-49bb-afd3-13c8d6cfa26a",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 77465,
+        "color": "Blue",
+        "price": 34815,
+        "created_at": "2023-09-27T10:11:14.316Z",
+        "updated_at": "2023-09-27T17:59:35.220Z",
+        "loan_id": "1ca78508-64d3-436b-b0c0-11ce025f3703"
+      },
+      {
+        "id": "cec16582-ee8a-4828-9f6b-bcaf94378b77",
+        "make": "Ford",
+        "model": "F-150",
+        "year": 50507,
+        "color": "Black",
+        "price": 74371,
+        "created_at": "2023-09-27T13:29:03.311Z",
+        "updated_at": "2023-09-27T19:15:25.692Z",
+        "loan_id": "0f9e5bb4-7173-4e80-8cc8-40a672585b39"
+      },
+      {
+        "id": "bd5e054f-a1d1-4b7d-b178-833c850b6985",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 39038,
+        "color": "White",
+        "price": 28604,
+        "created_at": "2023-09-27T15:38:03.157Z",
+        "updated_at": "2023-09-27T13:22:34.814Z",
+        "loan_id": "0f9e5bb4-7173-4e80-8cc8-40a672585b39"
+      },
+      {
+        "id": "d349203e-9699-41b9-aab3-f93475bdd03e",
+        "make": "Nissan",
+        "model": "Altima",
+        "year": 82843,
+        "color": "Silver",
+        "price": 75211,
+        "created_at": "2023-09-27T16:12:12.102Z",
+        "updated_at": "2023-09-27T04:55:49.072Z",
+        "loan_id": "218b768d-13e6-45c7-ade0-bcce2a4ca951"
+      }
+    ],
+    "customer_service_representative": [
+      {
+        "id": "6f4cb501-4c93-4d9a-a930-5390adecb2ca",
+        "first_name": "Jennifer",
+        "last_name": "Brown",
+        "email": "jennifer.brown@example.com",
+        "phone_number": "5551234567",
+        "created_at": "2023-09-27T07:17:31.289Z",
+        "updated_at": "2023-09-27T18:50:21.954Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "33cbe499-92f2-49b0-87a0-461b896667b2",
+        "first_name": "Christopher",
+        "last_name": "Smith",
+        "email": "christopher.smith@example.com",
+        "phone_number": "5559876543",
+        "created_at": "2023-09-28T03:32:09.575Z",
+        "updated_at": "2023-09-28T04:25:12.216Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5902d46d-7dc2-4f89-8c35-46b22b434a92",
+        "first_name": "Jessica",
+        "last_name": "Johnson",
+        "email": "jessica.johnson@example.com",
+        "phone_number": "5551112222",
+        "created_at": "2023-09-27T10:57:37.748Z",
+        "updated_at": "2023-09-27T08:55:25.644Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0d8e7382-3ed2-4d8d-bf2d-7cf51d412cb3",
+        "first_name": "Matthew",
+        "last_name": "Davis",
+        "email": "matthew.davis@example.com",
+        "phone_number": "5559998888",
+        "created_at": "2023-09-27T08:20:35.907Z",
+        "updated_at": "2023-09-27T14:44:30.002Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e14d8bc5-a6db-4183-b77d-efe74c22a53c",
+        "first_name": "Elizabeth",
+        "last_name": "Miller",
+        "email": "elizabeth.miller@example.com",
+        "phone_number": "5554443333",
+        "created_at": "2023-09-27T09:23:46.486Z",
+        "updated_at": "2023-09-28T03:31:06.806Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "5161cf7d-b927-4050-bbaf-fa640023616a",
+        "email": "Oral_Murray@roq.tech",
+        "firstName": "Junior",
+        "lastName": "Yost",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/131.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "44daf760-f207-4f44-868e-58cdf4dc55e8",
+        "email": "Laverna58@roq.tech",
+        "firstName": "Janet",
+        "lastName": "Windler",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/21492709",
+        "tenantId": null
+      },
+      {
+        "reference": "41e038d1-c3af-435f-97d4-a1d8a0943430",
+        "email": "Jakob97@roq.tech",
+        "firstName": "Jamir",
+        "lastName": "Kilback",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8883173",
+        "tenantId": null
+      },
+      {
+        "reference": "3fe8c018-e0dd-4209-8926-090f5578a185",
+        "email": "Arno_Olson@roq.tech",
+        "firstName": "Jarrod",
+        "lastName": "Schaden",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/785.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2e2fa598-8eca-4277-b693-22f11e608ae2",
+        "email": "Stone_Murphy11@roq.tech",
+        "firstName": "Cynthia",
+        "lastName": "DuBuque",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/77257941",
+        "tenantId": null
+      }
+    ]
+  }
+]
